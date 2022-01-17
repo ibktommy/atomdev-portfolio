@@ -1,0 +1,280 @@
+@media screen and (max-width: 1300px) {
+    .dev-name {
+        font-size: 5.5rem;
+    }
+
+    .section-title {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #navlinks a {
+        font-size: 2rem;
+    }
+
+    .display-menu {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .nav-menu {
+        height: 4rem;
+    }
+
+    .line {
+        height: 0.4rem;
+    }
+
+    .change.nav-menu .line-1 {
+        transform: rotate(-450deg) translateX(0.5rem);
+    }
+
+    .change.nav-menu .line-3 {
+        transform: rotate(-450deg) translateX(-0.8rem);
+    }
+
+    #home {
+        height: 80vh;
+    }
+
+    .dev-name {
+        font-size: 4.5rem;
+    }
+
+    .dev-title {
+        font-size: 2rem;
+    }
+
+    #about {
+        min-height: 60vh;
+        justify-content: center;
+    }
+
+    #services {
+        min-height: 50vh;
+        justify-content: center;
+    }
+
+    .about-content {
+        padding-bottom: 2rem;
+    }
+
+    .section-title {
+        font-size: 4.5rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .section-para {
+        font-size: 2rem;
+    }
+
+    .services-modal_dev,
+    .services-modal_design {
+        width: 60rem;
+    }
+
+    #contact {
+        min-height: 65vh;
+        justify-content: center;
+        padding: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    #navlinks {
+        flex-direction: column;
+    }
+
+    #navlinks a {
+        margin: 1.5rem 0;
+    }
+
+    .logo {
+        width: 10rem;
+    }
+
+    #home {
+        height: 70vh;
+    }
+
+    .dev-name {
+        font-size: 3.5rem;
+    }
+
+    .section-title {
+        font-size: 3.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 0.3rem solid var(--text-color);
+    }
+
+    .services-design,
+    .services-dev {
+        width: 30rem;
+    }
+
+    .services-title {
+        font-size: 2rem;
+    }
+
+    #services svg {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .modal-title {
+        font-size: 2rem;
+    }
+
+    .modal-details_content span {
+        font-size: 1.3rem;
+        margin-right: 1rem;
+    }
+
+    .modal-details_content li {
+        font-size: 1.5rem;
+    }
+
+    .contact-details {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .contact-details_box {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact-details_box svg {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    form button {
+        width: 100%;
+    }
+
+    #footer {
+        padding-bottom: 0.5rem;
+    }
+
+    .social a .footer-logo {
+        width: 10rem;
+    }
+
+    .social-icons a svg {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .social-icons a:first-of-type svg {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .dev-name {
+        font-size: 2.6rem;
+    }
+
+    .dev-title {
+        font-size: 1.8rem;
+    }
+
+    .about-container {
+        max-width: 80vw;
+        padding: 0 2rem;
+    }
+
+    .about-content {
+        width: 45rem;
+    }
+
+    .section-title {
+        font-size: 3rem;
+    }
+
+    .section-para {
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .resume {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 0.3rem 1.5rem;
+    }
+
+    .projects-link {
+        padding: 0.5rem 1rem;
+    }
+
+    .projects-link a {
+        font-size: 1.6rem;
+        font-weight: var();
+        letter-spacing: 0.1rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    html {
+        font-size: 55%;
+    }
+
+    .about-container {
+        padding: 0 1rem;
+    }
+
+    .about-content_text {
+        font-size: 1.6rem;
+    }
+
+    .section-title {
+        font-size: 3.5rem;
+    }
+
+    .section-para {
+        font-size: 2rem;
+    }
+
+    .resume {
+        font-size: 1.7rem;
+        font-weight: bold;
+        padding: 0.5rem 1.8rem;
+    }
+}
+@media screen and (max-width: 395px) {
+    html {
+        font-size: 45%;
+    }
+
+    .display-menu {
+        left: 3rem;
+    }
+
+    .nav-menu {
+        right: 3rem;
+    }
+
+    .about-content {
+        width: 95vw;
+    }
+
+    /* .about-content_text,
+    .about-skills {
+        width: 80vw;
+        margin: 0 auto;
+    } */
+
+    .about-content_text {
+        margin-bottom: 1.5rem;
+    }
+}
+@media screen and (max-width: 310px) {
+    html {
+        font-size: 38%;
+    }
+}

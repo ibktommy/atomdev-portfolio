@@ -1,0 +1,55 @@
+LIVE PREVIEW
+https://stargirlworld.netlify.app/
+
+https://classic-cars-atomdev.netlify.app/
+
+https://currency-converter-app-js.netlify.app/
+
+https://vlv-relaxation-home-atomdev.netlify.app/
+
+https://todoapp-js-atomdev.netlify.app/
+
+https://smith-portfolio-atomdev.netlify.app/
+
+https://ibktommy-grandhotel-website.netlify.app/
+
+https://ibktommy-food-delivery-website.netlify.app/
+
+https://paypal-clone-atomdev.netlify.app/
+
+https://temperature-conversion-app-atomdev.netlify.app/
+
+DEMO
+https://github.com/ibktommy/STARGIRL-WORLD-Website
+
+https://github.com/ibktommy/Classic-cars-website
+
+https://github.com/ibktommy/CURRENCY-CONVERTER-APP-Javascript
+
+https://github.com/ibktommy/VLV-Relaxation
+
+https://github.com/ibktommy/Javascript-to-do-app
+
+https://github.com/ibktommy/Smith-Portfolio
+
+https://github.com/ibktommy/Grand-Hotel
+
+https://github.com/ibktommy/Food-Delivery-Website
+
+https://github.com/ibktommy/Paypal-clone
+
+https://github.com/ibktommy/Temperature-Value-Conversion-App
+
+
+I can create website contents that require technical features.
+I can create, maintain and update websites with latest web technologies.
+I write codes that meets industry standards, well structured and is compatible with major browsers around.
+I creates website that are responsive to all screen sizes of most devices used inlcuding smartphones, laptops and desktop computers.
+I identify problems encountered by customers/users through testing and feedbacks, and I solve those problems or refer it to the appropriate teams for correction.
+
+
+I develop the user interface of a website.
+I create UX element interactions.
+I design UI elements that includes buttons, logo's, icons and so on.
+I design the layout of webpages.
+I design each individual screen while deciding the visual patterns and hierarchies of the sections of a webpage for user experience.
