@@ -40,7 +40,6 @@ navMenu.addEventListener("click", () => {
 
 const html = document.documentElement;
 const home = document.querySelector("#home");
-console.log(home);
 const displayMenu = document.querySelector(".display-menu");
 const moonIcon = document.querySelector(".moon-icon");
 displayMenu.addEventListener("click", () => {
@@ -58,6 +57,6 @@ displayMenu.addEventListener("click", () => {
 });
 
 // FORM SUBMIT EVENT
-document.querySelector(".contact form").addEventListener("submit", (e) => {
+document.querySelector("#contact form").addEventListener("submit", (e) => {
     e.preventDefault();
 });
