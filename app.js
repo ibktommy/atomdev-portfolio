@@ -58,6 +58,6 @@ displayMenu.addEventListener("click", () => {
 });
 
 // FORM SUBMIT EVENT
-document.querySelector("form").addEventListener("submit", (e) => {
+document.querySelector(".contact form").addEventListener("submit", (e) => {
     e.preventDefault();
 });
