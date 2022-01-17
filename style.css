@@ -318,6 +318,7 @@ a {
     font-size: 6rem;
     font-weight: 400;
     text-transform: uppercase;
+    text-align: center;
     color: var(--text-color);
     border-bottom: 0.5rem solid var(--text-color);
     margin-bottom: 3rem;
