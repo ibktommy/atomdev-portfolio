@@ -413,6 +413,7 @@ a {
     font-size: 2.5rem;
     color: var(--text-color);
     letter-spacing: 0.2rem;
+    text-align: center;
 }
 
 .projects-wrapper {
