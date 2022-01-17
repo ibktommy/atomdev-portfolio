@@ -368,16 +368,16 @@
           </div>
         </div>
       </div>
-      <form class="contact-form">
+      <form class="contact-form" data-netlify="true">
         <div class="form-info">
-          <input type="text" placeholder="Name">
-          <input type="text" placeholder="Your email">
+          <input type="text" placeholder="Name" name="name">
+          <input type="email" placeholder="Your email" name="email">
         </div>
         <div class="form-title">
-          <input type="text" placeholder="Your project title">
+          <input type="text" placeholder="Your project title" name="details">
         </div>
         <div class="form-details">
-          <textarea placeholder="Project details"></textarea>
+          <textarea placeholder="Project details" name="message"></textarea>
         </div>
         <button type="submit" id="form-btn">Send message</button>
       </form>
