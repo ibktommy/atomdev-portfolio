@@ -56,3 +56,8 @@ displayMenu.addEventListener("click", () => {
         home.classList.add("default-bg");
     }
 });
+
+// FORM SUBMIT EVENT
+document.querySelector("form").addEventListener("submit", (e) => {
+    e.preventDefault();
+});
