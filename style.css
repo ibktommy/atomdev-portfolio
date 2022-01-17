@@ -798,8 +798,7 @@ form button {
     transition: 0.3s ease;
 }
 
-form button:hover,
-form button:active {
+form button:hover {
     transform: translateY(0.5rem);
 }
 
