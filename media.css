@@ -90,10 +90,6 @@
         margin: 1.5rem 0;
     }
 
-    .logo {
-        width: 10rem;
-    }
-
     #home {
         height: 70vh;
     }
@@ -175,6 +171,19 @@
 }
 
 @media screen and (max-width: 650px) {
+    .top-bg {
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+    .display-menu,
+    .nav-menu {
+        top: 2rem;
+    }
+
+    .logo {
+        top: 2rem;
+        width: 20rem;
+    }
     .dev-name {
         font-size: 2.6rem;
     }
@@ -262,12 +271,6 @@
     .about-content {
         width: 95vw;
     }
-
-    /* .about-content_text,
-    .about-skills {
-        width: 80vw;
-        margin: 0 auto;
-    } */
 
     .about-content_text {
         margin-bottom: 1.5rem;

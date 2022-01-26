@@ -60,3 +60,16 @@ displayMenu.addEventListener("click", () => {
 document.querySelector("#contact form").addEventListener("submit", (e) => {
     e.preventDefault();
 });
+
+// SHOW TOP BACKGROUND
+const aboutSection = document.querySelector("#about");
+window.addEventListener("scroll", () => {
+    if (
+        window.pageYOffset + window.innerHeight >=
+        aboutSection.offsetHeight / 2
+    ) {
+        document.querySelector(".top-bg").classList.add("change");
+    } else {
+        document.querySelector(".top-bg").classList.remove("change");
+    }
+});
