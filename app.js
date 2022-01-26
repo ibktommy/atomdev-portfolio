@@ -69,7 +69,5 @@ window.addEventListener("scroll", () => {
         aboutSection.offsetHeight / 2
     ) {
         document.querySelector(".top-bg").classList.add("change");
-    } else {
-        document.querySelector(".top-bg").classList.remove("change");
     }
 });
