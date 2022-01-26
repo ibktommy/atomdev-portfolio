@@ -68,7 +68,7 @@ a {
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 30%;
     box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
-    z-index: 5;
+    z-index: 8;
     transform: translateY(-100%) scale(0);
     opacity: 0.5;
     transition: ease-out 0.5s;
@@ -129,7 +129,7 @@ a {
     top: 1rem;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 5;
+    z-index: 10;
 }
 
 .logo a svg {
@@ -162,6 +162,7 @@ a {
     height: 0.5rem;
     border-radius: 0.5rem;
     box-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 1);
+    z-index: 10;
 }
 
 .line-1,
