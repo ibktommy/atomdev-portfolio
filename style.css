@@ -781,6 +781,10 @@ form input {
 	height: 5rem;
 }
 
+.form-info {
+	margin-bottom: 2rem;
+}
+
 .form-info input {
 	width: 46.5%;
 }
@@ -789,9 +793,9 @@ form input {
 	margin-right: 6.2%;
 }
 
-.form-title input {
+/* .form-title input {
 	margin: 2rem 0;
-}
+} */
 
 form textarea {
 	width: 100%;
@@ -815,12 +819,9 @@ form button {
 	transition: 0.3s ease;
 }
 
-form button:hover {
+form button:focus,
+form button:active {
 	transform: translateY(0.5rem);
-}
-
-form button:focus {
-	transform: scale(0.9);
 }
 
 /* SECTION - FOOTER */
