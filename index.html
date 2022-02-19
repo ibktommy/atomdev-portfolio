@@ -374,16 +374,13 @@
                     </div>
                 </div>
             </div>
-            <form action="https://formspree.io/f/xjvlwony" method="post" class="contact-form">
+            <form class="contact-form">
                 <div class="form-info">
-                    <input type="text" placeholder="Name" name="name">
-                    <input type="email" placeholder="Your email" name="_replyto">
+                    <input type="text" placeholder="Name" class="user-name" name="name">
+                    <input type="email" placeholder="Your email" class="user-email" name="email">
                 </div>
-                <!-- <div class="form-title">
-                    <input type="text" placeholder="Your project title" name="title">
-                </div> -->
                 <div class="form-details">
-                    <textarea placeholder="Project details" name="message"></textarea>
+                    <textarea placeholder="Send me a message..." class="user-message" name="message"></textarea>
                 </div>
                 <button type="submit">Send message</button>
             </form>
@@ -426,6 +423,8 @@
 
     <!-- For JS -->
     <script src="./app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.0/axios.min.js"></script>
+    <!-- <script src="./form.js"></script> -->
 </body>
 
 </html>
