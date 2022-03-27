@@ -277,12 +277,12 @@ a {
 .dev-title {
 	font-size: 2.5rem;
 	font-weight: 400;
-	margin-bottom: 5rem;
 	text-shadow: var(--text-shadow);
 }
 
 .project-link,
 .contact-link {
+	display: inline-block;
 	font-family: var(--sec-font);
 	font-size: 1.8rem;
 	font-weight: 500;
@@ -291,6 +291,7 @@ a {
 	text-shadow: var(--text-shadow);
 	border: 0.2rem solid #fff;
 	padding: 0.5rem 2.5rem;
+	margin-top: 4rem;
 	border-radius: 0.7rem;
 	transition: 0.2s ease;
 }
