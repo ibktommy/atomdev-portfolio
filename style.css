@@ -537,7 +537,7 @@ a {
 	position: relative;
 	margin: 1.5rem 0 .5rem 0;
 	font-size: 1.3rem;
-	font-weight: 600;
+	font-weight: 300;
 	padding: 1rem;
 	text-align: justify;
 	color: var(--text-color);
@@ -563,6 +563,11 @@ a {
 	bottom: 0%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+.project-detail span {
+	font-size: 1.5rem;
+	font-weight: 600;
 }
 
 /* SECTION - SERVICES */
