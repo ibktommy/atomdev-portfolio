@@ -262,7 +262,11 @@ a {
 	background-attachment: fixed;
 }
 .default-bg#home {
-	background: linear-gradient(135deg, rgba(0, 50, 110, 0.9), rgba(148, 180, 83, 0.4)),
+	background: linear-gradient(
+			135deg,
+			rgba(0, 50, 110, 0.9),
+			rgba(148, 180, 83, 0.4)
+		),
 		url(./images/background/home-bg.png) no-repeat center;
 	background-attachment: fixed;
 }
@@ -527,6 +531,15 @@ a {
 	height: 3rem;
 	fill: var(--tertiary-color);
 	transition: 0.3s ease;
+}
+
+.project-detail {
+	position: relative;
+	font-size: 1.3rem;
+	font-weight: 600;
+	padding: 1rem;
+	text-align: justify;
+	color: var(--text-color);
 }
 
 /* SECTION - SERVICES */
